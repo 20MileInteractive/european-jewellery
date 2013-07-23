@@ -5,3 +5,6 @@ $ ->
 		$("#hover-menu-panels").toggleClass("hide")
 
 	$("#main-nav-menu a").on "click", toggleCategorizedMenu
+
+
+	$('.carousel').carousel()

@@ -1,102 +1,37 @@
 <!-- @include _top.html -->
 
-<div class="content">
+<div class="content" role="homepage">
 	
 	<div class="container">
 		
 		<div class="row">
 			
-			<div class="span8">
-				
-				<div class="row">
-					<div class="span8">
-						<h1 class="page-title">Heading 1.Page Title</h1>
+			<div class="span12">
+				<div id="home-carousel" class="carousel fade">
+					<ol class="carousel-indicators">
+						<li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#home-carousel" data-slide-to="1"></li>
+						<li data-target="#home-carousel" data-slide-to="2"></li>
+					</ol>
+					<!-- Carousel items -->
+					<div class="carousel-inner">
+						<div class="active item">
+							<a href="#">
+								<img src="<!-- @path home_first_slide.jpg -->">
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="http://fakeimg.pl/1200x451/45d618/FFF/?text=img+placeholder">
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="http://fakeimg.pl/1200x451/d63c18/FFF/?text=img+placeholder">
+							</a>
+						</div>
 					</div>
 				</div>
-
-				<div class="row">
-					<div class="span8">
-						<h1>Heading 1 Largest</h1>
-
-						<h2>Second Level Heading 2</h2>
-
-						<p>
-							Body text style here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, quam, alias, in similique autem temporibus architecto nobis molestiae quaerat omnis ipsa tempora officiis aliquam eaque enim. Perspiciatis nesciunt autem quisquam?
-						</p>
-
-						<h3>Subhead H3</h3>
-
-						<ul>
-							<li>Bullet list example</li>
-							<li>Bullet list example</li>
-							<li>Bullet list example</li>
-						</ul>
-
-						<h4>Next Level H4</h4>
-
-						<p>
-							Text element with <a href="#">text link style</a>, and <a href="#">visited link treatment</a>.
-							This is the effect on <a href="#">hover</a>.
-						</p>
-
-						<h5>Smallest H5</h5>
-
-						<div class="row">
-							<div class="span4"><button class="btn btn-large btn-block btn-primary" type="button">Large button</button></div>
-							<div class="span4"><button class="btn btn-large btn-block btn-primary" type="button">Large button</button></div>
-						</div>
-
-						<p>&nbsp;</p>
-
-						<div class="row">
-							<div class="span4"><button class="btn btn-large btn-block" type="button">Alternate button</button></div>
-							<div class="span4"><button class="btn btn-large btn-block" type="button">Alternate button</button></div>
-						</div>
-
-						<hr>
-
-						<p>
-							<input type="text" placeholder="Text Field Entry">
-
-							<select name="" id="">
-								<option value="1">Select Placeholder</option>
-							</select>
-						</p>
-					
-
-						<p>
-							<button class="btn btn-primary btn-small" type="button">small or submit button</button>
-						</p>
-
-					</div>
-				</div>
-
-
-			</div>
-
-			<div class="span4">
-				
-				<aside>
-					
-					<header>
-						<h3>Optional Sidebar Title Text H3</h3>
-					</header>
-
-					<blockquote>
-						<p>Block Quote Text. Vestibulum a odio ac est consequat pharetra. Donec ut viverra ipsum. Nunc sed convallis diam. Sed accumsan condimentum ipsum.</p>
-						<small><cite title="Source Title">Cite Attribution</cite></small>
-					</blockquote>
-
-					<div class="well">
-						<ul>
-							<li>Bullet list on light background</li>
-							<li>Bullet list example</li>
-							<li>Bullet list example</li>
-						</ul>
-					</div>
-
-				</aside>
-
 			</div>
 
 		</div>
