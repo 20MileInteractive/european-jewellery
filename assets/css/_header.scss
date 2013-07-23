@@ -45,9 +45,20 @@ header#main-header {
 
 	#main-nav-menu {
 
+		margin-top: 30px;
+
+		li {
+			padding-left: 10px;
+		}
+
 		a {
 			text-transform: uppercase;
 			color: #84776d;
+
+			&:hover {
+				text-decoration: none;
+				color: #fff;
+			}
 		}
 	}
 
