@@ -29,6 +29,10 @@ a:focus {
   text-decoration: underline;
 }
 
+a:visited {
+  color: $linkVisitedColor;
+}
+
 
 // Images
 // -------------------------

@@ -28,6 +28,7 @@ $yellow:                #ffc40d !default;
 $orange:                #f89406 !default;
 $pink:                  #c3325f !default;
 $purple:                #7a43b6 !default;
+$black: 				#000000 !default;
 
 
 // Scaffolding
@@ -38,8 +39,9 @@ $textColor:             $grayDark !default;
 
 // Links
 // -------------------------
-$linkColor:             #08c !default;
-$linkColorHover:        darken($linkColor, 15%) !default;
+$linkColor:             #726248 !default;
+$linkVisitedColor:      $black !default;
+$linkColorHover:        $black !default;
 
 
 // Typography

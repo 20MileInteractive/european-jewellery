@@ -1,7 +1,18 @@
 
 header#main-header {
 
-	background: url("layout/header_bg.png") repeat-x left top;
 
+	background: url("layout/header_bg.png") repeat-x left top;
+	height: 131px;
+
+
+	.bg-glow {
+		background: url("layout/bg-glow.png") no-repeat -12px 0px;
+	}
+
+	.logo {
+		padding-top: 24px;
+		padding-left: 10px;
+	}
 
 }
