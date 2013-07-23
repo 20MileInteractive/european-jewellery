@@ -36,5 +36,9 @@ h5 {
 	li {
 		list-style-image: url(layout/list_bullet.png);
 	}
+
+	.well li {
+		list-style-image: url(layout/list_bullet_dark.png);
+	}
 	
 }
