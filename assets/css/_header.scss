@@ -4,7 +4,6 @@ header#main-header {
 
 	background: url("layout/header_bg.png") repeat-x left top;
 	height: 131px;
-	margin-bottom: 50px;
 
 	.bg-glow {
 		height: 131px;
@@ -62,4 +61,30 @@ header#main-header {
 		}
 	}
 
+}
+
+#hover-menu-panels {
+
+	padding-bottom: 1em;
+	position: relative;
+	
+	background-color: rgb(40, 30, 22);
+	background-color: rgba(40, 30, 22, .9);
+
+	header {
+		h5 {
+			color: #e0d7cd;
+			font-family: $serifFontFamily;
+			font-style: italic;
+			font-weight: normal;
+			text-transform: capitalize;
+			font-size: 1.1em;
+			border-bottom: 1px solid #84776d;
+			padding-bottom: 0.3em;
+		}
+	}
+
+	a {
+		color: $white;
+	}
 }
