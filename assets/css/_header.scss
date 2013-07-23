@@ -4,15 +4,51 @@ header#main-header {
 
 	background: url("layout/header_bg.png") repeat-x left top;
 	height: 131px;
-
+	margin-bottom: 50px;
 
 	.bg-glow {
+		height: 131px;
 		background: url("layout/bg-glow.png") no-repeat -12px 0px;
 	}
 
 	.logo {
 		padding-top: 24px;
 		padding-left: 10px;
+	}
+
+	#top-right-menu {
+
+		margin-top: 10px;
+
+		a {
+			font-family: $serifFontFamily;
+			font-style: italic;
+			color: #cbb79b;
+
+			&:hover {
+				text-decoration: none;
+				color: #fff;
+			}
+		}
+
+		.search-query {
+			background-color: #67573e;
+			color: #fff;
+			font-family: $serifFontFamily;
+			font-style: italic;
+
+			&::-webkit-input-placeholder {
+				color: #fff;
+			}
+		}
+	}
+
+	#main-nav-menu {
+
+		a {
+			text-transform: uppercase;
+			color: #84776d;
+		}
 	}
 
 }
