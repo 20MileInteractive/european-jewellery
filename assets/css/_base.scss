@@ -44,6 +44,12 @@ h5 {
 		list-style-image: url(layout/list_bullet_dark.png);
 	}
 
+	ul.thumbnails {
+		li {
+			list-style-image: none;
+		}
+	}
+
 }
 
 aside {
