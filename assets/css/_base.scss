@@ -15,6 +15,14 @@ h2 {
 	font-family: $serifFontFamily;
 	font-weight: normal;
 	font-style: italic;
+
+	&.soft {
+		font-size: 1.4em;
+	}
+
+	&.no-top {
+		margin-top: 0px;
+	}
 }
 
 h3 {
