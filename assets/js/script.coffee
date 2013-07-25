@@ -7,4 +7,4 @@ $ ->
 	$("#main-nav-menu a").on "click", toggleCategorizedMenu
 
 
-	$('.carousel').carousel()
+	$('#home-carousel').carousel()
