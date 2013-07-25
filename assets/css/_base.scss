@@ -81,3 +81,61 @@ aside {
 		}
 	}
 }
+
+.breadcrumb {
+	background-color: transparent;
+	padding: 8px 0px;
+
+	li {
+		a {
+			font-family: $serifFontFamily;
+			font-style: italic;
+			font-size: 1.1em;
+		}
+		.divider {
+			color: inherit;
+		}
+
+		&.active {
+			color: $black;
+			font-size: 1em;
+		}
+	}
+}
+
+.pagination {
+	margin: 6px 0px;
+
+	ul {
+
+		box-shadow: none;
+		height: auto;
+
+		li {
+			
+			a {
+				background-color: transparent;
+				font-size: 1.1em;
+				border: 0px;
+
+				&:hover {
+					background-color: transparent;
+				}
+			}
+
+			&.view-all {
+				text-transform: uppercase;
+
+				a {
+					font-size: 1.0em;
+					margin-top: 4px;
+					height: auto;
+					padding: 0px 8px;
+					line-height: 13px;
+					margin-left: 4px;
+					border-left: 1px solid $white;
+				}
+			}
+		}
+	}
+}
