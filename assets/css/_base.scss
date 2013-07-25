@@ -139,3 +139,18 @@ aside {
 		}
 	}
 }
+
+.product-controls {
+	padding: 0px;
+	background-color: transparent;
+	border-top:0px;
+
+	button {
+		width: 30%;
+	}
+
+	a {
+		margin-left: 1.6em;
+		text-transform: uppercase;
+	}
+}
