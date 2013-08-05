@@ -162,3 +162,9 @@ aside {
 		text-transform: uppercase;
 	}
 }
+
+.flatten-well {
+	padding: 10px;
+	@include box-shadow(none);
+	border: 0px;
+}
