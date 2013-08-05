@@ -45,7 +45,7 @@ h5 {
 
 .content {
 
-	margin-top: 2em;
+	margin-top: 0em;
 	margin-bottom: 2em;
 
 	li {
@@ -97,6 +97,8 @@ aside {
 .breadcrumb {
 	background-color: transparent;
 	padding: 8px 0px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 
 	li {
 		a {
@@ -171,4 +173,10 @@ aside {
 	padding: 10px;
 	@include box-shadow(none);
 	border: 0px;
+}
+
+#featured-spotlight {
+	padding-bottom: 32px;
+	margin-bottom: 30px;
+	background: url(layout/featured-spotlight-bg.png) no-repeat center bottom;
 }
