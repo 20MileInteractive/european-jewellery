@@ -2,6 +2,12 @@
 
 	li {
 
+		margin-bottom: 20px;
+
+		&.span2 {
+			// margin-top: 0px;
+		}
+
 		.thumbnail {
 			border: 0px;
 			padding: 0px;
