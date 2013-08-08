@@ -64,6 +64,10 @@ h5 {
 
 }
 
+a.btn:visited {
+	color: $white;
+}
+
 aside {
 
 	header {
@@ -173,10 +177,4 @@ aside {
 	padding: 10px;
 	@include box-shadow(none);
 	border: 0px;
-}
-
-#featured-spotlight {
-	padding-bottom: 32px;
-	margin-bottom: 30px;
-	background: url(layout/featured-spotlight-bg.png) no-repeat center bottom;
 }
