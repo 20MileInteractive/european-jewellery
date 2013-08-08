@@ -68,6 +68,21 @@ a.btn:visited {
 	color: $white;
 }
 
+.shadow-up {
+	padding-bottom: 32px;
+	background: url(layout/shadow-up.png) no-repeat center bottom;
+}
+
+.shadow-down {
+	padding-top: 21px;
+	background: url(layout/shadow-down.png) no-repeat center top;
+}
+
+.shadow-down-med {
+	padding-top: 21px;
+	background: url(layout/shadow-down-med.png) no-repeat center top;
+}
+
 aside {
 
 	header {
