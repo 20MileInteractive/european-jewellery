@@ -4,14 +4,17 @@ table {
 		line-height: 0px;
 		margin-bottom: 18px;
 	}
+}
 
-	tbody {
+.table {
 
-		tr {
-			td {
-				padding-top: 16px;
-			}
-		}
+	td {
+		padding: 24px 0px;
+	}
+
+	th {
+		padding: 8px 0px;
+		text-transform: uppercase;
 	}
 }
 

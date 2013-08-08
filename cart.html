@@ -4,7 +4,7 @@
 	
 	<div class="container">
 
-		<div class="row">
+		<div class="row no-breadcrumb">
 			<div class="span7">
 				<h1 class="page-title">Shopping Bag</h1>
 			</div>
@@ -26,9 +26,9 @@
 						<tr>
 							<th class="span6">Item</th>
 							<th class="span2">Quantity</th>
-							<th>Unit</th>
-							<th>Price</th>
-							<th>&nbsp;</th>
+							<th class="span2">Availability</th>
+							<th class="span1">Price</th>
+							<th class="span1">&nbsp;</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -57,7 +57,7 @@
 								</select>
 							</td>
 							<td>
-								$83.00
+								In Stock
 							</td>
 							<td>
 								$83.00
@@ -88,14 +88,17 @@
 									<option value="5">5</option>
 								</select>
 							</td>
-							<td>$83.00</td>
+							<td>
+								Out of Stock <br>
+								<a href="#">Add to Wishlist</a>
+							</td>
 							<td>$83.00</td>
 							<td><button type="submit" class="remove-cart-item"></button></td>
 						</tr>
 
 						<tr>
 							<td class="span6">
-								<button href="<!-- @path product-listing.html -->" class="btn btn-primary btn-large">Continue Shopping</button>
+								<button href="<!-- @path product-listing.html -->" class="btn btn-large">Continue Shopping</button>
 							</td>
 							<td colspan="4">
 								<div id="promo-code" class="row-fluid">

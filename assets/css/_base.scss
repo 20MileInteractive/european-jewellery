@@ -48,8 +48,13 @@ h5 {
 	margin-top: 0em;
 	margin-bottom: 2em;
 
-	li {
-		list-style-image: url(layout/list_bullet.png);
+	ul {
+		margin: 0 0 20px 18px;
+
+		li {
+			list-style-image: url(layout/list_bullet.png);
+			margin-bottom: 10px;
+		}
 	}
 
 	.well li {
@@ -79,11 +84,11 @@ a.btn:visited {
 }
 
 .shadow-down-med {
-	padding-top: 21px;
+	padding-top: 3px;
 	background: url(layout/shadow-down-med.png) no-repeat center top;
 }
 
-.breadcrumb {
+ul.breadcrumb {
 	background-color: transparent;
 	padding: 8px 0px;
 	margin-top: 8px;
@@ -104,6 +109,10 @@ a.btn:visited {
 			font-size: 1em;
 		}
 	}
+}
+
+.no-breadcrumb {
+	margin-top: 2em;
 }
 
 .pagination {
@@ -162,4 +171,16 @@ a.btn:visited {
 	padding: 10px;
 	@include box-shadow(none);
 	border: 0px;
+}
+
+.add-to-cart-detail {
+	.form-actions {
+		margin-top: 18px;
+		margin-bottom: 20px;
+	}
+}
+
+.hover-to-zoom {
+	text-transform: uppercase;
+	color: $linkColor;
 }
