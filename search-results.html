@@ -1,0 +1,87 @@
+<!-- @include _top.html -->
+
+<div class="content">
+	
+	<div class="container">
+		
+		<!-- @include _breadcrumb.html -->
+
+		<div class="row">
+			<div class="span12">
+				<h1 class="page-title">Search Results</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span8">
+				<p>Keywords: <span id="keywords"></span></p>
+			</div>
+			<script>
+				var $_GET = {}, args = location.search.substr(1).split(/&/);
+				for (var i=0; i<args.length; ++i) {
+					var tmp = args[i].split(/=/);
+					if (tmp[0] != "") {
+						$_GET[decodeURIComponent(tmp[0])] = decodeURIComponent(
+							tmp.slice(1).join("").replace("+", " ")
+						);
+					}
+				}
+
+				var element = document.getElementById('keywords');
+
+				element.innerHTML = $_GET['keywords'];
+
+			</script>
+			<div class="span4">
+				<div class="pagination pagination-mini pagination-right">
+					<ul>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">&raquo;</a></li>
+						<li class="view-all"><a href="#">View All</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span12">
+				<ul class="thumbnails">
+					<!-- @include _product_listing_cell.html -->
+					<!-- @include _product_listing_cell_alt.html -->
+					<!-- @include _product_listing_cell.html -->
+					<!-- @include _product_listing_cell_alt.html -->
+					<!-- @include _product_listing_cell.html -->
+					<!-- @include _product_listing_cell_alt.html -->
+					<!-- @include _product_listing_cell.html -->
+					<!-- @include _product_listing_cell_alt.html -->
+					<!-- @include _product_listing_cell.html -->
+					<!-- @include _product_listing_cell_alt.html -->
+					<!-- @include _product_listing_cell.html -->
+					<!-- @include _product_listing_cell_alt.html -->
+				</ul>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span12">
+				<div class="pagination pagination-mini pagination-right">
+					<ul>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">&raquo;</a></li>
+						<li class="view-all"><a href="#">View All</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- @include _recently_viewed.html -->		
+
+	</div>
+
+</div>
+
+
+
+<!-- @include _bottom.html -->
