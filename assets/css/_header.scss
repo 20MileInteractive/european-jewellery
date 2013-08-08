@@ -46,46 +46,63 @@ header#main-header {
 
 		margin-top: 1.9em;
 
-		li {
-			padding-left: 10px;
-		}
+		ul {
 
-		a {
-			text-transform: uppercase;
-			color: #84776d;
+			&:after {
+				content: ""; 
+				clear: both; 
+				display: block;
+			}
 
-			&:hover {
-				text-decoration: none;
-				color: #fff;
+			li {
+				padding-left: 10px;
+
+				a {
+					display: block;
+					text-transform: uppercase;
+					color: #84776d;
+					padding-bottom: 11px;
+
+					&:hover {
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+
+				.hover-menu-panels {
+					padding-bottom: 1em;
+					position: absolute;
+					z-index: 999999999;
+					top: 131px;
+					left: 0px;
+					width: 100%;
+					display: none;
+					
+					background-color: rgb(40, 30, 22);
+					background-color: rgba(40, 30, 22, .9);
+
+					header {
+						h5 {
+							color: #e0d7cd;
+							font-family: $serifFontFamily;
+							font-style: italic;
+							font-weight: normal;
+							text-transform: capitalize;
+							font-size: 1.1em;
+							border-bottom: 1px solid #84776d;
+							padding-bottom: 0.3em;
+						}
+					}
+
+					a {
+						color: $white;
+					}
+				}
+
+				&:hover {
+					.hover-menu-panels { display: block; }
+				}
 			}
 		}
-	}
-
-}
-
-#hover-menu-panels {
-
-	padding-bottom: 1em;
-	position: relative;
-	z-index: 999999999;
-	
-	background-color: rgb(40, 30, 22);
-	background-color: rgba(40, 30, 22, .9);
-
-	header {
-		h5 {
-			color: #e0d7cd;
-			font-family: $serifFontFamily;
-			font-style: italic;
-			font-weight: normal;
-			text-transform: capitalize;
-			font-size: 1.1em;
-			border-bottom: 1px solid #84776d;
-			padding-bottom: 0.3em;
-		}
-	}
-
-	a {
-		color: $white;
 	}
 }
