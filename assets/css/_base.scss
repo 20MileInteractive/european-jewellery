@@ -83,36 +83,6 @@ a.btn:visited {
 	background: url(layout/shadow-down-med.png) no-repeat center top;
 }
 
-aside {
-
-	header {
-		h3 {
-			font-family: $serifFontFamily;
-			font-weight: normal;
-			font-style: italic;
-			font-size: 1.4em;
-			text-transform: capitalize;
-			text-align: center;
-			background: url("layout/aside_header_shadow.png") no-repeat center 40px;
-			padding-bottom: 40px;
-		}
-	}
-
-	blockquote {
-		padding: 8px 0 0 18px;
-		background: url("layout/open_quotes.png") no-repeat left top;
-		font-family: $serifFontFamily;
-
-		small {
-			margin-top: 1em;
-			font-family: $sansFontFamily;
-			color: $textColor;
-			font-size: 1.1em;
-			text-transform: uppercase;	
-		}
-	}
-}
-
 .breadcrumb {
 	background-color: transparent;
 	padding: 8px 0px;
