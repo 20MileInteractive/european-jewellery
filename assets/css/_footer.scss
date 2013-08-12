@@ -32,6 +32,10 @@ footer#main-footer {
 			&.youtube { background-position: -61px 0px; }
 			&.pinterest { background-position: -95px 0px; }
 			&.instagram { background-position: -130px 0px; }
+
+			&:hover {
+				background-image: url(layout/footer-social-icons-hover.png);
+			}
 		}
 	}
 }
