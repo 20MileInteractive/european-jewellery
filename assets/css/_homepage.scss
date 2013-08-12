@@ -10,12 +10,10 @@
 	&.fade {
 		opacity: 1;
 
-		.item
-		{
-			-moz-transition: opacity ease-in-out .7s;
-			-o-transition: opacity ease-in-out .7s;
-			-webkit-transition: opacity ease-in-out .7s;
-			transition: opacity ease-in-out .7s;
+		.item {
+
+			@include transition (opacity .7s ease-in-out);
+
 			left: 0 !important;
 			opacity: 0;
 			top:0;
@@ -42,10 +40,7 @@
 			&.active
 			{
 				opacity: 1;
-				-moz-transition: opacity ease-in-out .7s;
-				-o-transition: opacity ease-in-out .7s;
-				-webkit-transition: opacity ease-in-out .7s;
-				transition: opacity ease-in-out .7s;
+				@include transition (opacity .7s ease-in-out);
 				z-index:2;
 			}
 		}
