@@ -19,10 +19,13 @@ table {
 }
 
 
-.remove-cart-item {
+.remove-cart-item, .remove-wish-item {
 	display: block;
 	width: 30px;
 	height: 30px;
 	border: 0px;
 	background: url(layout/cart-close.png) no-repeat left top;
+}
+.remove-wish-item {
+	margin-top: 9px;
 }
