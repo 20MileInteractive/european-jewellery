@@ -27,6 +27,9 @@ ul.nav-tabs {
 			text-align: center;
 
 			@include box-shadow(inset 1px 1px 1px rgba(0, 0, 0, 0.3));
+			&:hover {
+				background: #f9f9f8;
+			}
 		}
 
 		&.active a,
